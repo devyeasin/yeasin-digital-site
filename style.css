@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+.hero {
+  background: url('assets/hero.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 6rem 1rem;
+  color: white;
+}
+.btn-primary {
+  display: inline-block;
+  background: #0a74da;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+.btn-primary:hover { background: #084c9c; }
+@media (max-width: 600px) {
+  .service-cards { flex-direction: column; }
+}
